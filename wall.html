@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Wall</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/wall.jpg" alt="Wall" class="banner" />
+    <h1>Submit Your Proverb</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="wall.html" class="active">Interactive Wall</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="proverb">Your Proverb:</label>
+      <textarea id="proverb" name="proverb" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>

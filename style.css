@@ -1,0 +1,136 @@
+:root {
+    --gold: #d59aa3;
+    --royal: #FFFFF0;
+    --bg: #be82e9;
+    --text: #f9f5f5;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+  }
+  
+  header {
+    background-color: var(--royal);
+    color: var(--gold);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-bottom: 4px solid var(--gold);
+  }
+  
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: var(--gold);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: var(--gold);
+    color: var(--royal);
+    border-radius: 5px;
+  }
+  
+  nav a.active {
+    background-color: white;
+    color: var(--royal);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--gold);
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--royal);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: var(--royal);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card {
+    background-color: var(--gold);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .featured, .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .detail {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  .back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--royal);
+    font-weight: bold;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('z\ x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--text);
+    margin: 0;
+  }
